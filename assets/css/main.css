@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+    /* font-family: ; */
+}
+
+section {
+    width: 75%;
+    margin: 0 auto;
+}
+
+
+.container {
+    display: grid;
+    place-items: center;
+}
+
+.blog {
+    margin-top: 7%;
+}
+
+.blog-heading {
+    font-family: 'New York Extra Large';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 100%;
+    text-align: center;
+    color: #000000;
+    margin-top: 44px;
+    margin-bottom: 32px;
+    width: 858px;
+    height: 162px;
+    left: 293px;
+    top: 787px;
+}
+
+#paragraph {
+    width: 592px;
+    left: 424px;
+    height: 68px;
+
+    top: 981px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 170%;
+    /* or 34px */
+
+    text-align: center;
+
+    color: #000000;
+}
+
+hr {
+    margin-top: 5%;
+    color: black;  
+    width: 80%;
+    height: 2px;
+    background-color: #000000;
+}
+
+#articles {
+    margin-top: 5%;
+    margin-bottom: 2%;
+    width: 216px;
+    height: 53px;
+    left: 612px;
+    top: 1147px;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 53px;
+    text-align: center;
+    color: #000000;
+}
+
+.blog-grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    place-items: center;
+    justify-content: center;
+}
+
+.blog-grid-container-children {
+    padding-top: 5%;
+    flex-basis: 250px;
+}
+
+.blog-grid-container-children h3 {
+    font-size: 22px;
+    text-align: center;
+    margin-top: 15px;
+    font-weight: 400;
+    line-height: 120%;
+    width: 262px;
+    height: 78px;
+    left: 755px;
+    top: 1435px;
+}
